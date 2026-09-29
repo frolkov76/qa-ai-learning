@@ -32,3 +32,20 @@ git commit -m "..." - сохранить изменения в локально�
 git push - отправить локальные коммиты на GitHub
 
 git pull - забрать изменения с GitHub на компьютер
+
+## Postman Native Git
+
+.postman/ - служебная конфигурация связи локального проекта с Postman workspace
+
+postman/ - коллекции, environments, globals, specs и другие Postman-файлы
+
+Основные команды:
+
+postman --version
+postman collection new "API Learning"
+postman collection list
+
+ls -la postman
+find postman -maxdepth 3 -type f
+
+git status
