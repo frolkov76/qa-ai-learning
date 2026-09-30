@@ -1,0 +1,42 @@
+$kind: http-request
+description: ""
+url: https://petstore3.swagger.io/api/v3/pet
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"id\": 37,\r
+
+    \  \"name\": \"Venya\",\r
+
+    \  \"category\": {\r
+
+    \    \"id\": 1,\r
+
+    \    \"name\": \"Cats\"\r
+
+    \  },\r
+
+    \  \"photoUrls\": [\r
+
+    \    \"string\"\r
+
+    \  ],\r
+
+    \  \"tags\": [\r
+
+    \    {\r
+
+    \      \"id\": 0,\r
+
+    \      \"name\": \"string\"\r
+
+    \    }\r
+
+    \  ],\r
+
+    \  \"status\": \"available\"\r
+
+    }"
+order: 1790731377682

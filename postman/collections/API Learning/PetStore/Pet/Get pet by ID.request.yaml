@@ -1,0 +1,15 @@
+$kind: http-request
+description: ""
+url: https://petstore3.swagger.io/api/v3/pet/37
+method: GET
+headers:
+  accept: application/json
+scripts:
+  - type: afterResponse
+    code: "pm.test(\"Status code is 200\", function(){\r
+
+      \    pm.response.to.have.status(200);\r
+
+      })"
+    language: text/javascript
+order: 2794694181740908

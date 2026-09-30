@@ -1,0 +1,11 @@
+$kind: http-request
+description: ""
+url: https://petstore3.swagger.io/api/v3/pet/37?name=Tosya&status=available
+method: POST
+queryParams:
+  name: Tosya
+  status: available
+body:
+  type: formdata
+  content: []
+order: 4499640458801368

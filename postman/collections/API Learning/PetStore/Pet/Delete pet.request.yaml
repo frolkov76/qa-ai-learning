@@ -1,0 +1,5 @@
+$kind: http-request
+description: ""
+url: https://petstore3.swagger.io/api/v3/pet/37
+method: DELETE
+order: 4502688018766947
